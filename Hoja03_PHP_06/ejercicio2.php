@@ -58,11 +58,12 @@
                     <button type="submit" class="btn btn-dark rounded" name="buscar">Buscar</button>
                     <div class="from-group mt-3">
                         <?php
-                        if (isset($_POST["buscar"])&&isset($_POST["entrenador"])) {
-                            foreach ($equipos[$_POST['equipo']] as $key => $item) {
-
-                                echo
-                                    "<table class='table'>
+                        if (isset($_POST["buscar"]) && isset($_POST["entrenador"])) {
+                            echo
+                                "<table class='table'>";
+                            foreach ($equipos[$_POST['equipo']] as $persona) {
+                                foreach ($persona as $key => $imagen) {
+                                    echo "
                             <thead class='thead-dark'>
                                 <tr>
                                   <th scope='col' >" . "$key" . "</th>
@@ -72,11 +73,13 @@
                                 <tr>
                                     <td>" . "$item" . "</td>
                                 </tr>
-                            </tbody>
-                        </table>";
-                            }
-                        };
-                        if (isset($_POST["buscar"])&&isset($_POST["jugadoresººººº"])) {
+                            </tbody>";
+                                    echo "</table>";
+                                }
+                            };
+                        }
+
+                        if (isset($_POST["buscar"]) && isset($_POST["jugadoresººººº"])) {
                             foreach ($equipos[$_POST['equipo']] as $key => $item) {
 
                                 echo
