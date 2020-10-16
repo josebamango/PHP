@@ -38,9 +38,9 @@
 
     <?php
 
-    $dolares = $_POST["dolares"];
-    $euros = $_POST["euros"];
-    $libras = $_POST["libras"];
+
+    if (isset($_POST["libras"])) {
+        $libras = $_POST["libras"];
 
         $respuestaO == $_POST["origen"];
         $respuestaD == $_POST["destino"];
@@ -67,7 +67,71 @@
                 echo "Yo me llamo Ralph";
                 break;
         }
-    
+    }
+    if (isset($_POST["euros"])) {
+        $euros = $_POST["euros"];
+
+        $respuestaO == $_POST["origen"];
+        $respuestaD == $_POST["destino"];
+        switch (true) {
+            case $respuestaO == "euros" && $respuestaD == "libras":
+                echo $euros . " euros son: " . $euros * 0.91 . " libras";
+                break;
+            case $respuestaO == "euros" && $respuestaD == "dolares":
+                echo $euros . " euros son: " . $euros * 1.18 . " dólares";
+                break;
+            case $respuestaO == "dolares" && $respuestaD == "euros":
+                echo $dolares . " dolares son: " . $dolares * 0.85 . " dólares";
+                break;
+            case $respuestaO == "dolares" && $respuestaD == "libras":
+                echo $dolares . " dolares son: " . $dolares * 0.77 . " libras";
+                break;
+            case $respuestaO == "libras" && $respuestaD == "euros":
+                echo $libras . " libras son: " . $libras * 1.1 . " euros";
+                break;
+            case $respuestaO == "libras" && $respuestaD == "dolares":
+                echo $libras . " libras son: " . $libras * 1.29 . " dolares";
+                break;
+            default:
+                echo "Yo me llamo Ralph";
+                break;
+        }
+    }
+    if (isset($_POST["dolares"])) {
+        $dolares = $_POST["dolares"];
+        $respuestaO == $_POST["origen"];
+        $respuestaD == $_POST["destino"];
+        switch (true) {
+            case $respuestaO == "euros" && $respuestaD == "libras":
+                echo $euros . " euros son: " . $euros * 0.91 . " libras";
+                break;
+            case $respuestaO == "euros" && $respuestaD == "dolares":
+                echo $euros . " euros son: " . $euros * 1.18 . " dólares";
+                break;
+            case $respuestaO == "dolares" && $respuestaD == "euros":
+                echo $dolares . " dolares son: " . $dolares * 0.85 . " dólares";
+                break;
+            case $respuestaO == "dolares" && $respuestaD == "libras":
+                echo $dolares . " dolares son: " . $dolares * 0.77 . " libras";
+                break;
+            case $respuestaO == "libras" && $respuestaD == "euros":
+                echo $libras . " libras son: " . $libras * 1.1 . " euros";
+                break;
+            case $respuestaO == "libras" && $respuestaD == "dolares":
+                echo $libras . " libras son: " . $libras * 1.29 . " dolares";
+                break;
+            default:
+                echo "Yo me llamo Ralph";
+                break;
+        }
+    }
+
+
+
+
+
+
+
 
 
     ?>

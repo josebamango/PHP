@@ -20,8 +20,38 @@
 
     <?php
 
-    $peliculas = ["Scarface", "SAW", "Scent of a Woman", "North by Northwest", "Godfellas", "The Usual Suspects", "Pulp Fiction", "Good Will Hunting", "La ventana indiscreta", "The King of Comedy", "The Irishman", "Uncut Gems", "The Lighthouse", "Jackie Brown"];
-    
+    $peliculas = [
+        "Scarface", "SAW", "Scent of a Woman", "North by Northwest",
+        "Godfellas", "The Usual Suspects", "Pulp Fiction", "Good Will Hunting",
+        "La ventana indiscreta", "The King of Comedy", "The Irishman",
+        "Uncut Gems", "The Lighthouse", "Jackie Brown"
+    ];
+
+    $buscador = $_POST["buscador"];
+    foreach ($peliculas as $item) {
+        $titulo = $item;
+        if (strpos($titulo, $buscador) != false) {
+            $coincidencias[] = $titulo;
+        }
+    }
+    echo $coincidencias;
+
+/*
+    function busqueda($arrayPeliculas)
+    {
+        $resultado = array();
+        if (isset($_REQUEST["pelicula"])) {
+            $busqueda = $_REQUEST["pelicula"];
+            foreach ($arrayPeliculas as $nombrePelicula) {
+                if (strpos($nombrePelicula, $busqueda) === false) {
+                } else {
+                    $resultado[] = $nombrePelicula;
+                };
+            }
+            return $resultado;
+        }
+    }
+*/
 
     ?>
 </body>
