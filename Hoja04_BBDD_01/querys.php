@@ -13,7 +13,7 @@
     function getJugadores($equipo)
     {
         $conexionNBA = getConexion("dwes_01_nba");
-        $consulta = $conexionNBA->exec("SELECT nombre FROM jugadores WHERE nombre_equipo='" . $equipo . "'");
+        $consulta = $conexionNBA->exec("SELECT nombre, peso FROM jugadores WHERE nombre_equipo='" . $equipo . "'");
         unset($conexionNBA);
         return $consulta;
 

@@ -17,7 +17,7 @@ function getEquipos($conexion)
 }
 function getJugadores($conexion, $equipos)
 {
-    $jugadores = $conexion->query('SELECT nombre FROM jugadores WHERE nombre_equipo="' . $equipos . '"')->fetchAll();
+    $jugadores = $conexion->query('SELECT nombre, peso FROM jugadores WHERE nombre_equipo="' . $equipos . '"')->fetchAll();
 
     return $jugadores;
 }
@@ -74,6 +74,7 @@ if (isset($_POST)) {
                             <thead class="thead-dark">
                                 <tr>
                                     <th>Nombre</th>
+                                    <th>Peso</th>
                                 </tr>
                             </thead>
                             <?php foreach ($jugadores as $jugador) : ?>
@@ -82,8 +83,12 @@ if (isset($_POST)) {
                                     <td>
                                         <?= $jugador["nombre"] ?>
                                     </td>
+                                    <td>
+                                        <?= $jugador["peso"]." kg" ?>
+                                    </td>
                                 </tr>
                             <?php endforeach; ?>
+                           
                         </table>
                     </div>
                 </form>
