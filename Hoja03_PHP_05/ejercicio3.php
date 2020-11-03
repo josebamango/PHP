@@ -13,19 +13,40 @@
         <label for="buscar">Buscador</label>
         <input type="search" name="buscador" id="buscardor"><br><br>
         <input type="submit" name="enviar" id="enviar">
-
-
-
     </form>
 
     <?php
 
-    $peliculas = [
-        "Scarface", "SAW", "Scent of a Woman", "North by Northwest",
-        "Godfellas", "The Usual Suspects", "Pulp Fiction", "Good Will Hunting",
-        "La ventana indiscreta", "The King of Comedy", "The Irishman",
-        "Uncut Gems", "The Lighthouse", "Jackie Brown"
-    ];
+    $peliculas = array(
+        array("titulo" => "Scarface", "imagen" => "scarface.jpg"),
+        array("titulo" => "SAW", "imagen" => "saw.jpg"),
+        array("titulo" => "Scent of a Woman", "imagen" => "esencia.jpg"),
+        array("titulo" => "North by Northwest", "imagen" => "talones.jpg"),
+        array("titulo" => "Godfellas", "imagen" => "goodfellas.jpg"),
+        array("titulo" => "The Usual Suspects", "imagen" => "sospechosos.jpg"),
+        array("titulo" => "Pulp Fiction", "imagen" => "pulp.jpg"),
+        array("titulo" => "Good Will Hunting", "imagen" => "indomable.jpg"),
+        array("titulo" => "La ventana indiscreta", "imagen" => "ventana.jpg"),
+        array("titulo" => "The King of Comedy", "imagen" => "rey.jpg"),
+        array("titulo" => "The Irishman", "imagen" => "irlandes.jpg"),
+        array("titulo" => "Uncut Gems", "imagen" => "diamantes.jpg"),
+        array("titulo" => "The Lighthouse", "imagen" => "faro.jpg"),
+        array("titulo" => "Jackie Brown", "imagen" => "jackie.jpg")
+
+    );
+
+    if (isset($_POST['buscador'])) {
+        $html = "<table class='table'>";
+        $buscador = strtolower($_POST['buscador']);
+        foreach ($peliculas as $peli) {
+            if (strpos(strtolower($peli['titulo']), $buscador) !== false) {
+                $html .= "<tr><td><img src='pelis/{$peli['imagen']}'/></td><td><h3>{$peli['titulo']}</h3></td></tr>";
+            }
+        }
+    }
+
+    $html .= "</table>";
+    /*
 
     $buscador = $_POST["buscador"];
     foreach ($peliculas as $item) {
@@ -36,7 +57,7 @@
     }
     echo $coincidencias;
 
-/*
+    
     function busqueda($arrayPeliculas)
     {
         $resultado = array();

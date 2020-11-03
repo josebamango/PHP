@@ -84,11 +84,11 @@ if (isset($_POST)) {
                                         <?= $jugador["nombre"] ?>
                                     </td>
                                     <td>
-                                        <?= $jugador["peso"]." kg" ?>
+                                        <?= $jugador["peso"] . " kg" ?>
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
-                           
+
                         </table>
                     </div>
                 </form>
