@@ -1,5 +1,5 @@
     <?php
-    require_once "conexionBD.php";
+    require_once "conexionPDO.php";
 
     function getEquipos()
     {
@@ -7,6 +7,17 @@
         $resultado = $conexionNBA->query("SELECT nombre FROM equipos");
         unset($conexionNBA);
         return $resultado;
+
+        $pdo=getConexion();
+        $consulta="select * from equipos";
+        if ($resultado=$pdo->query($consulta)) {
+            while ($equipo=$resultado->fetch(PDO::FETCH_OBJ)) {
+                $equipos[]=$equipo->nombre;
+            }
+            unset($resultado);
+        }
+        unset ($pdo);
+        return $equipos;
     }
  
 
@@ -18,6 +29,5 @@
         return $consulta;
 
     }
-
 
     ?>

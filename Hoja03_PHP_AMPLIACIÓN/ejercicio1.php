@@ -11,7 +11,6 @@
 
 <body>
     <?php
-
     $datos = array(
         //si no pongo esta key seria la posicion 0
         //$item sirve para cuando pongo abreviaturas o algo como aqui abajo, y entonces el item es ya comedia
@@ -76,8 +75,9 @@
                     </div>
                     <div class="form-group">
                         <label for="imagen">Selecciona una imagen:</label>
-                        <input type="file" class="form-control-file bg-primary text-white" id="imagen" accept="image/jpg">
+                        <input type="file" class="form-control-file bg-primary text-white border border-dark" id="imagen" accept="image/jpg">
                     </div>
+                    <button type="submit" class="btn btn-success border border-primary offset-5">Submit</button>
                 </form>
             </div>
         </div>

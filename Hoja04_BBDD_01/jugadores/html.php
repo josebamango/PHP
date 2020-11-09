@@ -69,7 +69,7 @@ if (isset($_POST)) {
                         </select>
                         <input type="submit" id="boton" value="mostrar" class="btn btn-success mt-2 text-center">
                     </div>
-                    <div class="form-control  mt-2">
+                    <div class="form-control mt-2">
                         <table class="table table-striped table-success table-hover text-center">
                             <thead class="thead-dark">
                                 <tr>
@@ -88,7 +88,6 @@ if (isset($_POST)) {
                                     </td>
                                 </tr>
                             <?php endforeach; ?>
-
                         </table>
                     </div>
                 </form>
