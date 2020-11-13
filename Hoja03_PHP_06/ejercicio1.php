@@ -32,9 +32,10 @@
                             <?php
 
                             foreach ($marcas as $key => $item) {
-                                print("
-                                <option value='$key'>$key</option>
-                                ");
+                                echo
+                                "<option value='$key'";if(isset($_POST['marca'])&&$_POST['marca']==$key)echo "selected='true'";
+                                    
+                                echo">$key</option>";
                             };
 
                             ?>
@@ -53,6 +54,7 @@
                         }
                         ?>
                     </div>
+                    
                 </form>
             </div>
         </div>

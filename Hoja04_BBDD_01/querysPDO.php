@@ -21,12 +21,26 @@
     }
  
 
-    function getJugadores($equipo)
+    /*function getJugadores($equipo)
     {
         $conexionNBA = getConexion("dwes_01_nba");
         $consulta = $conexionNBA->exec("SELECT nombre, peso FROM jugadores WHERE nombre_equipo='" . $equipo . "'");
         unset($conexionNBA);
         return $consulta;
+
+    }*/
+
+    function getJugadoresEquipo($equipo){
+        $mysqli=getConexion();
+        $consulta="select nombre, peso from jugadores where nombre_equipo='$equipo'";
+        if ($resultado=$mysqli->query($consulta)) {
+            while ($jugador=$resultado->fetch()) {
+                $jugadores[]=$jugador["nombre"];
+            }
+            unset($resultado);
+        }
+        unset($pdo);
+        return $jugadores;
 
     }
 
