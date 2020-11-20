@@ -54,7 +54,7 @@ function getPosicion($conexion)
 }
 function traspaso($codigoJugador, $nombre, $procedencia, $altura, $peso, $posicion, $equipo)
 {
-    $nuevoCodigo = getUltimoCodigoJugador() + 1;
+    #$nuevoCodigo = getUltimoCodigoJugador() + 1;
     $correcto = false;
 }
 function actualizarPeso($jugadores, $pesos, $conexion)
@@ -65,7 +65,7 @@ function actualizarPeso($jugadores, $pesos, $conexion)
 }
 ?>
 
-function
+
 
 <?php
 if (isset($_POST)) {
