@@ -18,7 +18,6 @@ $plazas = getAsiento();
         <div class="row justify-content-center mt-5 mb-5">
             <div class="col-6">
                 <p class="display-4 text-center text-warning">Gestión de plazas</p>
-
                 <form action='<?php echo $_SERVER['PHP_SELF'] ?>' class="border border-success pt-2 px-2 pb-5 mt-3" method="POST">
                     <div class="form-control mt-2">
                         <table class="table table-striped table-success table-hover text-center">

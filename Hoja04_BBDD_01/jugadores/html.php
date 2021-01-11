@@ -59,7 +59,7 @@ function traspaso($codigoJugador, $nombre, $procedencia, $altura, $peso, $posici
 }
 function actualizarPeso($jugadores, $pesos, $conexion)
 {
-    $resultado=$conexion->query('update jugadores set peso = ? where codigo = ?');
+    $resultado = $conexion->query('update jugadores set peso = ? where codigo = ?');
     $sentencia = $resultado->stmt_init();
     $sentencia->prepare($resultado);
 }
