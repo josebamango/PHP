@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Hoja06/Hoja06_Clases_01" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Hoja06/Hoja06_Clases_02" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Hoja06/Hoja06_Clases_03" />
+      <excludeFolder url="file://$MODULE_DIR$/.vscode" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Examenes/CasiExamen" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Examenes/Examen 1Ev - 1" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Examenes/Examen 1Ev - 2" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Tienda" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema6 - Nodos DOM/Ejemplo1_HTML5" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema6 - Nodos DOM/Repaso Nodos" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema6 - Nodos DOM/Creacion Nodos" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema6 - Nodos DOM/ahorcado" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Examenes/ExamenT2" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Examenes/ExamenT3" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Examenes/ExamenT4" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema7 - Eventos/Gestion Eventos" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema6 - Nodos DOM/RepasoAtributosStyle" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema7 - Eventos/PizarraEntregar" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema6 - Nodos DOM/Prubeas" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/pruebasAjax/Ej1" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/pruebasAjax/Ej3" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/pruebasAjax/EjXML" />
+      <excludeFolder url="file://$MODULE_DIR$/DIW/T4-jQuery/RepasojQuery" />
+      <excludeFolder url="file://$MODULE_DIR$/DIW/T4-jQuery/Tema" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Examenes/Examen 2Ev - 1" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Examen 2Ev - 2" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Examenes/Examen 2Ev - 1" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Tema08/Hoja08_WebServices_01" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Tema08/Hoja08_WebServices_02" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Tema08/Hoja08_WebServices_03" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Tema09/Hoja09_Ajax_01" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/IMC" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/Videoclub" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Tema09/Hoja09_Ajax_02" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema9 - JSON/Ej1" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema9 - JSON/Ej2" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema9 - JSON/Ej3" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema9 - JSON/Ej4" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema10 - Cookies y sesiones/Cookies" />
+      <excludeFolder url="file://$MODULE_DIR$/DWES/Examenes/apuntesLaravel" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema10 - Cookies y sesiones/Sesiones" />
+      <excludeFolder url="file://$MODULE_DIR$/DWEC/Tema3/ArraysYFunciones/Ej5" />
+    </content>
+    <content url="file://$MODULE_DIR$/DIW/Examen jQuery" />
+    <content url="file://$MODULE_DIR$/DIW/T4-jQuery" />
+    <content url="file://$MODULE_DIR$/DIW/T4-jQuery/Ejercicios Repaso" />
+    <content url="file://$MODULE_DIR$/DWEC/Tema3/ArraysYFunciones/Ej5" />
+    <content url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/IMC" />
+    <content url="file://$MODULE_DIR$/DWEC/Tema8 - AJAX/Videoclub" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
