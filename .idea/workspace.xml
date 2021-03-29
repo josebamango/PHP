@@ -20,32 +20,209 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbd95cfa-fea3-45a8-9c0a-78008aa750fb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Class/BaseDatos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class/Producto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_01/Ejercicio1/Circulo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_01/Ejercicio1/main.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer1/Empleado.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer1/Encargado.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/Cuenta.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/CuentaAhorro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/CuentaCorriente.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Familia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Medico.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Ugencia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Alimentacion.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Electronica.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Productos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/Bombilla.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/Coche.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/iEncendible.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/jugadores/html.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoja04_BBDD_01/jugadores/html.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/plazas.php" beforeDir="false" afterPath="$PROJECT_DIR$/Hoja04_BBDD_03/plazas.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PHP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f517b86b-842b-4d86-a647-652c8f0e4cb4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f517b86b-842b-4d86-a647-652c8f0e4cb4/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f517b86b-842b-4d86-a647-652c8f0e4cb4/storage_v2/_src_/schema/tienda_moviles.wVTnoA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/f517b86b-842b-4d86-a647-652c8f0e4cb4/storage_v2/_src_/schema/tienda_moviles.wVTnoA.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/BaseDatos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/Producto.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/css/estilo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/ejercicio2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/experimentosCaseros.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Examen/triquetra-bold-400w.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio1_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio2_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio3_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio4_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio5_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio6_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio7_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejercicio8_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_01/ejericio7_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_03/ejercicio1_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_03/ejercicio2_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_03/ejercicio3_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_03/ejercicio4_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja02_PHP_03/ejercicio5_hoja2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio10_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio11_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio12_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio1_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio2_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio3_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio4_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio5_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio6_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio7_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio8_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_01/ejercicio9_hoja3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_03/ejercicio1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_03/ejercicio2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_03/ejercicio3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_03/ejercicio4.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_03/ejercicio5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_03/ejercicio6.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/datos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/ejercicio5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/ejercicio8.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/formularioGet.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/formularioPost.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/operaciones.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/par_numeros.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/pares.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_04/tabla.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_05/ejercicio1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_05/ejercicio3.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_05/ejercicio5.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/ejercicio1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/ejercicio2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/amog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/ansu.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/case.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/chiqui.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/cou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/frank.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/griez.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/idolo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/karim.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/luka.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/ramosp.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_06/imagenes/zidane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_07/ejercicio1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_07/enviar_reservar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_07/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja03_PHP_AMPLIACIÓN/ejercicio1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/conexionMySQLi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/conexionPDO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/jugadores/html.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/juugadoresNBA.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/querysMSQLI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_01/querysPDO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02/dwes_02_libros (1).sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02/funcionesBaseDatos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02/libros.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02/libros_borrar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02/libros_datos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_02/libros_guardar.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/conexionMYSQLI.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/conexionPDO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/funciones.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/gestion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/llegada.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/plazas.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/registro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja04_BBDD_03/reserva.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja05_Sesiones_02/cookies.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_01/Ejercicio1/Circulo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_01/Ejercicio1/main.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer1/Empleado.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer1/Encargado.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/Cuenta.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/CuentaAhorro.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/CuentaCorriente.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer2/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Familia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Medico.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/Ugencia.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer3/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Alimentacion.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Electronica.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/Productos.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_02/Ejer4/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/Bombilla.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/Coche.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/iEncendible.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hoja06_Clases_03/Ejer1/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/bootstrap-4.5.3-dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/comercios.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/conexionMYSQLi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/conexionPDO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/nuevacompra.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/querysMYSQLi.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/ejercicio1/querysPDO.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/clientes/cliente-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/burger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/cafeteria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/complementos.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/floristeria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/golosinas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/panaderia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/pizzeria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/ropa.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ManteconJoseba/imagenes/comercios/supermercado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio1/ejercicio1.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/ejercicio2.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/africanus.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/amor_tiempos_colera.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/caida_gigantes.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/cien_anyos_soledad.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/cronica_muerte.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/dime_quien_soy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/dispara_muerto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/legiones_malditas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/patria.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mantecon_Joseba/Ejercicio2/libros/pilares_tierra.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bootstrap/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entregaJoseba.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login-form-v15.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,8 +248,15 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mariadb" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JAVASCRIPT" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -94,6 +278,12 @@
       <workItem from="1607961632385" duration="6257000" />
       <workItem from="1608050973064" duration="7601000" />
       <workItem from="1608059672578" duration="169000" />
+      <workItem from="1616614132588" duration="286000" />
+      <workItem from="1616705021031" duration="800000" />
+      <workItem from="1616787021969" duration="49000" />
+      <workItem from="1616887197069" duration="13000" />
+      <workItem from="1616948812056" duration="1047000" />
+      <workItem from="1617014826504" duration="345000" />
     </task>
     <task id="LOCAL-00001" summary="get conexion con misqli">
       <created>1604943304719</created>
@@ -137,61 +327,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="get conexion con misqli" />
     <option name="LAST_COMMIT_MESSAGE" value="get conexion con misqli" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="263" y="18" key="#CLI_Interpreters" timestamp="1604943210444">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="263" y="18" key="#CLI_Interpreters/0.0.1366.728@0.0.1366.728" timestamp="1604943210444" />
-    <state x="390" y="6" key="#PHP" timestamp="1604943212436">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="390" y="6" key="#PHP/0.0.1366.728@0.0.1366.728" timestamp="1604943212436" />
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607623940483">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="275" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1607623940483" />
-    <state x="476" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1608057202001">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="476" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1608057202001" />
-    <state x="464" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1608056382517">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="464" y="153" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1608056382517" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1608059173209">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="463" y="101" key="FileChooserDialogImpl/0.0.1366.623@0.0.1366.623" timestamp="1607610429136" />
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1608059173209" />
-    <state x="490" y="86" key="NewPhpClassDialog" timestamp="1608056383451">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="490" y="86" key="NewPhpClassDialog/0.0.1366.728@0.0.1366.728" timestamp="1608056383451" />
-    <state x="518" y="287" key="NewPhpFileDialog" timestamp="1608057506523">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="518" y="287" key="NewPhpFileDialog/0.0.1366.728@0.0.1366.728" timestamp="1608057506523" />
-    <state x="184" y="8" key="SettingsEditor" timestamp="1607628588606">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="8" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607628588606" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1607623329683">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1607623329683" />
-    <state x="207" y="96" key="Vcs.Push.Dialog.v2" timestamp="1604944495180">
-      <screen x="0" y="0" width="1024" height="728" />
-    </state>
-    <state x="207" y="96" key="Vcs.Push.Dialog.v2/0.0.1024.728@0.0.1024.728" timestamp="1604944495180" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1604943376043" />
-    <state x="576" y="0" width="806" height="716" key="dock-window-1" timestamp="1607628112816">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="576" y="0" width="806" height="716" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1607628112816" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607961744150">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607961744150" />
   </component>
 </project>
